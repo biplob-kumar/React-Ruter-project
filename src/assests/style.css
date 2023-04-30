@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app {
+    text-align: center;
+}
+.navbar {
+    padding: 30px 0;
+    text-align: center;
+    list-style: none;
+    background: #eee;
+    font-weight: bold;
+}
+
+.navbar li {
+    display: inline;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+.navbar li a {
+    background: rgb(18, 173, 140);
+    padding: 12px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.product-area-full {
+    
+    text-align: center;
+  }
+  .product-area-full h2{
+    font-size: 2.5rem;
+    color: salmon;
+  }
+
+  .product-area {
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .product-single {
+    
+    box-shadow: 2px 6px 14px 0px #80808042;
+    padding: 10px;
+    margin-top: 20px;
+    flex-grow: 1;
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+    background-color:coral;
+    margin: .4rem;
+ border-radius: 50px 0px 50px 0px ;
+  }
+
+  .product-button {
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(18, 173, 140);
+    text-decoration: none;
+    padding: 15px 20px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: block;
+  }
+
+  img{
+    max-width: 100%;
+    width: auto;
+    height: 200px;
+}
+.product-d{
+    box-shadow: 2px 6px 14px 0px #80808042;
+    padding: 10px;
+    margin-top: 20px;
+    flex-grow: 1;
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+    background-color:coral;
+    margin: .4rem;
+   border-radius: 50px 0px 50px 0px ;
+   margin-bottom: 4rem;
+}
+.product-d h2{
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.product-d h3{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+.product-d h4{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+
+
+
+
+
+
+.home-page{
+    background: url(https://media.istockphoto.com/id/1353553203/photo/forest-wooden-table-background-summer-sunny-meadow-with-green-grass-forest-trees-background.jpg?b=1&s=170667a&w=0&k=20&c=-jvR1WDwcloLXRgRTGeyG3frvrhPIbegdemeL6vY2Pk=)no-repeat center;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+}
+.home-page h2{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    position: relative;
+    top: 30%;
+}
+
+
+.contact{
+   
+    font-size: 3rem;
+}
